@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #333; /* 웹페이지 배경색 */
+  overflow: hidden; /* 스크롤바가 생기지 않도록 설정 */
+}
+
+canvas {
+  display: block; /* 캔버스가 블록 요소로 표시되도록 설정 */
+}
